@@ -169,7 +169,7 @@ namespace Battleship
                 userAllAttacks++;
             }
 
-            if ((u1 > 0 || u2 > 0 || u3 > 0 || u4 > 0) && (c1 > 0 || c2 > 0 || c3 > 0 || c4 > 0))
+            if ((u1 > 0 || u2 > 0 || u3 > 0 || u4 > 0) && (c1 > 0 || c2 > 0 || c3 > 0 || c4 > 0)) // Есть ли не убитые корабли?
             {
                 if (!success)
                 {
